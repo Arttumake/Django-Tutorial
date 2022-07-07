@@ -3,5 +3,5 @@ WORKDIR /DjangoBlog
 COPY requirements.txt requirements.txt
 RUN pip install -r requirements.txt
 COPY . .
-WORKDIR /DjangoBlog/django-schafer
+WORKDIR /DjangoBlog/django_schafer
 CMD [ "/deploy.sh" ]
